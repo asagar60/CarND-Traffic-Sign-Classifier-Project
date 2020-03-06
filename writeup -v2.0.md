@@ -23,8 +23,8 @@ The goals / steps of this project are the following:
 [image4]: ./writeup_images-v2.0/Alter_brightness.JPG "Altered brightness"
 [image5]: ./writeup_images-v2.0/Rotated_Image.JPG "Rotated Image"
 [image6]: ./writeup_images-v2.0/preprocess_image.JPG "Preprocessed Image"
-[image7]: ./writeup_images-v2.0/sample_images_training_set_cropped.JPG "training set"
-[image8]: ./writeup_images-v2.0/Augmented_training_set_cropped.JPG "Augmented training set"
+[image7]: ./writeup_images-v2.0/sample_images_training_set_cropped.jpg "training set"
+[image8]: ./writeup_images-v2.0/Augmented_training_set_cropped.jpg "Augmented training set"
 [image9]: ./writeup_images-v2.0/Accuracy_graph.JPG "Accuracy Graph"
 [image10]: ./writeup_images-v2.0/loss_graph.JPG "Loss Graph"
 [image11]: ./writeup_images-v2.0/preprocess_example_data.JPG "preprocess example data"
@@ -80,7 +80,7 @@ Here is an exploratory visualization of the data set. It is a bar chart showing 
 
 ## Sample Set before Augmentation
 
-![training set][image7]
+![image7]
 
 
 I decided to generate additional data because of the following reason(s):
@@ -109,6 +109,7 @@ Firstly , I generated all the augmented Image , such that all classes have almos
     ![Rotated Image][image5]
 
 ## Sample Set after Augmentation
+
 
 ![Augmented_training_set_cropped][image8]
 
